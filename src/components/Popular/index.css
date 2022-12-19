@@ -1,0 +1,46 @@
+.popularContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.listMovie {
+  list-style-type: none;
+  margin: 15px;
+  flex-grow: 1;
+}
+.popularImg {
+  height: 230px;
+  width: 240px;
+  border-radius: 10px;
+}
+.moviesContainer {
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.moviesListPopular {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 567px) {
+  .popularImg {
+    height: 100px;
+    width: 90px;
+  }
+}
+.popularListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+}
